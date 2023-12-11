@@ -24,9 +24,15 @@ Otimizar o combate à dengue na cidade de Uberlândia, encontrando o caminho mai
 - Os vértices podem ou não serem focos de dengue;
 - O peso de cada aresta representa o comprimento das ruas.
 
-## 💻 Visão Geral
-O programa é capaz de fazer operações como: 
-- Cadastro de clientes e funcionários
-- Impressão dos dados dos clentes e funcionários
-- Fazer operações bancárias como: saque, depósito, pagar conta, consultar saldo, consultar extrato.
+## 💻 Visão Geral do Programa
+Os inputs são:
+- quantidade de vértices
+- as ruas juntamente com suas distâncias
+- vértices contaminados
+- local de início do carro do fumacê
 
+O output gera:
+- Menor caminho
+- Distância total
+
+Para encontrar o menor caminho foi o utilizado o algoritmo Dijkstra com fila de prioridade.
